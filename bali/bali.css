@@ -1,0 +1,57 @@
+/*
+* Chioma Njoku
+* April 9, 2019
+* Padua Panda Travel Agency Project
+*/
+
+/* The universal selector */
+
+* {
+
+}
+
+/* Body properties here */
+
+body {
+
+width: 80%;
+    
+margin: auto;
+    
+background-color: lightcyan
+
+}
+/* This increases the font size of certain text */
+.bigtext{font-size: 125%;}
+
+/* This adjusts the size of the picture */
+#bungalow {height: 300px; width: 300px;}
+
+#temple {height: 300px; width: 300px;}
+
+#waterfall {height: 300px; width: 300px;}
+
+/* This moves the pictures allows text and other pictures to float */
+#bungalowfigure {float: left;}
+
+#templefigure {float: left;}
+
+#waterfallfigure {float: left;}
+
+/* This stops text and pictures from float */
+.nofloat { clear: both;}
+
+/* This changes to color of the border lines and thicknss */
+table, td, th { border: 1.5px solid black; }
+
+/* This collapses the spaces in between the cells */
+table { border-collapse: collapse; }
+
+/* This made the heading background of the table aqua */
+thead { background-color: lavender; }
+
+/* Thsi made the body background of the table white */
+tbody { background-color: white; }
+
+/* This made the footing background of the table green */
+tfoot { background-color: peachpuff; }
